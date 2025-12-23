@@ -14,4 +14,4 @@ St0fF / theObsessedManiacs ^ Neoplasia
 - 5 zp-variables
 - ~1 Rasterline
 - wrapped into PSIDv3 File (thank you, Slammer - for all the possibilities of Kick Assembler!)
-- source release on github
+- source release on github (VS64 project)
