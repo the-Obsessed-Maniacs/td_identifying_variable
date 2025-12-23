@@ -1,6 +1,6 @@
 /**
- *	Tiny Dancer: "identifying variable"
- *	===================================
+ *	Tiny Dancer: "identify variable"
+ *	================================
  *	A dual-SID contribution by St0fF / theObsessedManiacs & Neoplasia
  *	after an idea by Prince / theObsessedManiacs
  *
