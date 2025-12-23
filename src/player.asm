@@ -17,7 +17,7 @@
 		.label dpos = $5a
 		.label addr = $5b
 		.var smp = $b08b
-		.var loop = $40
+		.var loop = $80
 
 .segment MusicPlayer [start=$1000]
 init:				jmp initialize_both_chips
