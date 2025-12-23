@@ -1,8 +1,8 @@
 /**
  *	Tiny Dancer: "identifying variable"
  *	===================================
- *	A dual-SID contribution by St0fF / the0bsessedManiacs & Neoplasia
- *	after an idea by Prince / the0bsessedManiacs
+ *	A dual-SID contribution by St0fF / theObsessedManiacs & Neoplasia
+ *	after an idea by Prince / theObsessedManiacs
  *
  *	Made especcially for the "Yogi's & Flex' Melodic 2SID Compo 2025"
  *	as a Christmas Present to the C64 scene after like 17.5 years of

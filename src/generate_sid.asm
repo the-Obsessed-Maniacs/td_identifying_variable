@@ -13,8 +13,8 @@
 	.word flipEndian2( 1 ),flipEndian2( 1 )
 	.dword 0
 	.encoding "ascii"
-	.text "TinyDancer: identifying variable"	//
-	.text "St0fF / the0bsessedManiacs ^ NPL"	//
+	.text "TinyDancer: »identify variable« "	//
+	.text "St0fF / theObsessedManiacs ^ NPL"	//
 	.text "2025-12-24                      "	//
 	.word flipEndian2( %0000000110 )	// flags
 	.byte 0,0			// relocStartPage, relocPages
