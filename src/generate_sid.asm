@@ -6,9 +6,9 @@
  */
 
 .macro PSID_header( loadAddr, initAddr, playAdr, sid2, sid3 ) {
-	.dword flipEndian4( $50534944 )	// PSID
-	.word flipEndian2( 3 )				// Version 4
-	.word flipEndian2( $7c )			// dataOffset, version 2+
+	.dword flipEndian4( $50534944 )			// PSID
+	.word flipEndian2( sid3 > 0 ? 4 : 3 )	// Version selector
+	.word flipEndian2( $7c )				// dataOffset, version 2+
 	.word flipEndian2( loadAddr ), flipEndian2( initAddr ), flipEndian2( playAdr )
 	.word flipEndian2( 1 ),flipEndian2( 1 )
 	.dword 0
