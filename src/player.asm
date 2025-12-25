@@ -10,6 +10,8 @@
  *
  *	Maybe this becomes the base of a new 4k demo multiSID-Tracker? Who knows?
  */
+#importonce
+
  		.var tickCount = 5
 
 		.label leis = $58
@@ -19,10 +21,10 @@
 		.var smp = $b08b
 		.var loop = $80
 
-.segment MusicPlayer [start=$1000]
-init:				jmp initialize_both_chips
+.macro dumpPlayerAtStar() {
+@init:				jmp initialize_both_chips
 .memblock "tinyDancer_Speichertanz_2SID"
-play:				dec cnt
+@play:				dec cnt
 					bpl fertsch
 tick:				lda #tickCount
 					sta cnt
@@ -113,3 +115,4 @@ initialize_both_chips:
 .memblock "tinyDancer_BumsdatendiewirleiderdochfuerdenSIDbrauchn"
 srt:		.byte $fa,$66,$89,$66
 frt:		.byte $02,$f8,$24,$f8
+}
