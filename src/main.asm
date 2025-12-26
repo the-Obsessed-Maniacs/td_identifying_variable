@@ -6,7 +6,7 @@
 .encoding "ascii"
 
 .const title 	=	"TinyDancer: »identify variable«"
-.const author	=	"St0fF / theObsessedManiacs ^ NPL"
+.const author	=	"theObsessedManiacs ^ NPL"
 .const reldate	=	"2025-12-24"
 
 .segment PRG_file [outPrg="TinyDancer_identify_variable_2SID.prg"]

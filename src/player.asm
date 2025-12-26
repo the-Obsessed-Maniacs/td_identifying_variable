@@ -92,12 +92,12 @@ initialize_both_chips:
 					sta $d403,y		//Pulse: 	50%
 					sta $d403+7,y
 					lsr
-					sta $d405,y		//ATTACK:	0
-					sta $d405+7,y	//DECAY:	4
+					sta $d405,y		//HiNotes: 0485
+					sta $d405+7,y	//LoNotes: 048a
 					lda #$85
-					sta $d406,y		//SUSTAIN:	8
+					sta $d406,y
 					lda #$8a
-					sta $d406+7,y	//RELEASE:	7
+					sta $d406+7,y
 					lda #15			// volle Pulle
 					sta $d418,y
 					tya
