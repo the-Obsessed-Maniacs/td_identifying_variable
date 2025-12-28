@@ -12,14 +12,14 @@
  */
 #importonce
 
- 		.var tickCount = 5
+ 		.var tickCount = 5	// Music Speed - ~150BPM
+		.var smp = $b08b	// Music Data Source
+		.var loop = $80		// Length of data source to consume before wrap
 
-		.label leis = $58
-		.label cnt = $59
-		.label dpos = $5a
-		.label addr = $5b
-		.var smp = $b08b
-		.var loop = $80
+		.label leis = $58	// 2nd ticking stage - switch between on/off
+		.label cnt = $59	// 1st ticking stage - frame ticker
+		.label dpos = $5a	// 3rd ticking stage - data position
+		.label addr = $5b	// data_ptr
 
 .macro dumpPlayerAtStar() {
 @init:				jmp initialize_both_chips
